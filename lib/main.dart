@@ -21,7 +21,7 @@ class GymApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Gym Management',
+      title: 'FitSphere Gym Management',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.darkTheme,
       home: const MainLayout(),

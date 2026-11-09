@@ -17,7 +17,7 @@ class GymProvider with ChangeNotifier {
     return _members.where((m) => m.isActive).fold(0.0, (sum, m) => sum + m.plan.price);
   }
 
-  // Load initial mock data
+  // Load initial mock data to display in the app
   Future<void> loadMockData() async {
     _isLoading = true;
     notifyListeners();
